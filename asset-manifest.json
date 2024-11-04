@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/PortFoile-new/static/css/main.6185f14c.css",
+    "main.js": "/PortFoile-new/static/js/main.05bf4ed8.js",
+    "static/js/453.8132a657.chunk.js": "/PortFoile-new/static/js/453.8132a657.chunk.js",
+    "static/media/resume.png": "/PortFoile-new/static/media/resume.b00e9ef74a2efc798c33.png",
+    "static/media/instagram.png": "/PortFoile-new/static/media/instagram.912cbe6491f23302a4c1.png",
+    "static/media/joystick.png": "/PortFoile-new/static/media/joystick.22b3007456d3e7a24fd3.png",
+    "static/media/youtube.png": "/PortFoile-new/static/media/youtube.023fa7c90329ce3ddf55.png",
+    "static/media/project.png": "/PortFoile-new/static/media/project.da1e2084aabd6df01d33.png",
+    "static/media/linkedin.png": "/PortFoile-new/static/media/linkedin.92380c03cc82f139a166.png",
+    "static/media/files.png": "/PortFoile-new/static/media/files.2ad333e61e96360a5b34.png",
+    "static/media/facebook.png": "/PortFoile-new/static/media/facebook.b293d5363351752caf25.png",
+    "static/media/java.png": "/PortFoile-new/static/media/java.31d9269a11d8907d6d60.png",
+    "index.html": "/PortFoile-new/index.html",
+    "main.6185f14c.css.map": "/PortFoile-new/static/css/main.6185f14c.css.map",
+    "main.05bf4ed8.js.map": "/PortFoile-new/static/js/main.05bf4ed8.js.map",
+    "453.8132a657.chunk.js.map": "/PortFoile-new/static/js/453.8132a657.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6185f14c.css",
+    "static/js/main.05bf4ed8.js"
+  ]
+}
