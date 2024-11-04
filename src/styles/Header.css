@@ -1,0 +1,102 @@
+/* src/components/Header.css */
+
+/* Container för headern */
+.header {
+    display: flex;
+    flex-direction: column; /* Staplar barn i en kolumn för mobila enheter */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding: 20px; /* Lägger till padding för att skapa utrymme på mobiler */
+}
+
+/* Headerns innehållsstyling */
+.header-content {
+    display: flex;
+    flex-direction: column; /* Staplar text och ikoner vertikalt */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center; /* Centrera texten för bättre läsbarhet på mobiler */
+}
+
+/* Stil för huvudtiteln */
+.title {
+    font-family: "Delius Unicase", cursive;
+    font-size: 36px; /* Anpassad storlek för läsbarhet på mindre skärmar */
+    margin: 0;
+}
+
+/* Stil för undertiteln med gradient-effekt */
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, rgba(7,0,120,1), rgba(0,212,255,1)); /* Gradient-effekt för text */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    margin-top: 10px; /* Skapar mellanrum mellan titel och undertitel */
+}
+
+/* Stil för sociala ikoner */
+.header-content .social-icons {
+    display: flex;
+    gap: 10px; /* Utrymme mellan ikonerna */
+    margin-top: 15px; /* Utrymme mellan undertiteln och ikonerna */
+}
+
+.icon {
+    width: 24px; /* Mindre ikonstorlek för mobila enheter */
+    height: 24px;
+    transition: transform 0.3s; /* Smidig övergång vid hovring */
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Förstorar ikonen något vid hovring */
+}
+
+/* Responsiva media-frågor */
+@media (min-width: 768px) {
+    .title {
+        font-size: 48px; /* Större textstorlek för surfplattor */
+    }
+
+    .subtitle {
+        font-size: 24px; /* Ökar textstorleken för bättre läsbarhet */
+    }
+
+    .icon {
+        width: 30px; /* Större ikonstorlek för surfplattor */
+        height: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        flex-direction: row; /* Växlar till horisontell layout för större skärmar */
+        justify-content: space-between;
+        padding: 30px; /* Mer padding för desktop-vy */
+    }
+
+    .title {
+        font-size: 56px; /* Större titel för desktop */
+    }
+
+    .subtitle {
+        font-size: 28px; /* Ökar undertitelns textstorlek för desktop */
+    }
+
+    .icon {
+        width: 32px; /* Något större ikoner för desktop */
+        height: 32px;
+    }
+}
+
+/* Stil för horisontell linje */
+.horizontal-line {
+    width: 80%;           /* Anpassar bredden för att vara responsiv */
+    max-width: 600px;     /* Valfritt: maxbredd för större skärmar */
+    height: 2px;          /* Tjocklek på linjen */
+    background-color: black; /* Färg på linjen */
+    margin: 20px auto;    /* Centrera linjen med marginaler */
+}
